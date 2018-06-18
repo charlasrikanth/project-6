@@ -1,1 +1,3 @@
-# project-6
+# Linux server configuration project
+
+## 
