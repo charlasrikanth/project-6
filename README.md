@@ -36,4 +36,12 @@ Application URL:
 
 * Change the port from 22 to 2200.
 
+## Configure the Firewall to only allow incoming connections for SSH , HTTP ,and NTP
+
+* sudo ufw allow 2200/tcp
+* sudo ufw allow 80/tcp
+* sudo ufw allow 123/udp
+* sudo ufw enable
+
+
 
