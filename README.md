@@ -169,7 +169,7 @@ Rename website.py to __init__.py using sudo mv website.py __init__.py
 
 Edit database_setup.py, website.py and functions_helper.py and change engine = create_engine('sqlite:///toyshop.db') to engine = create_engine('postgresql://catalog:password@localhost/catalog')
 
-Install pip sudo apt-get install python-pip
+## Install pip sudo apt-get install python-pip
 
 Use pip to install dependencies sudo pip install -r requirements.txt
 
@@ -244,7 +244,7 @@ from FlaskApp import app as application
 
 application.secret_key = 'Add your secret key'
 
-Restart Apache
+## Restart Apache
 
 Restart Apache sudo service apache2 restart
 
