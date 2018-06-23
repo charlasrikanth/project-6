@@ -4,11 +4,20 @@
 
 Take a Linux distribution on a virtual machine and prepare it to host your web applications, to include installing updates, securing it from attacks and installing web and database servers.
 
+The list of software installed are:
+
+1. Python
+
+2.Postgresql
+
+3.Flask environment
+
+4. Apache2
+
 IP address: 35.167.27.204
 
 Accessible SSH port: 2200
-
-Application URL: 
+ 
 
 ## Set-up Process
 
@@ -243,6 +252,12 @@ sys.path.insert(0,"/var/www/FlaskApp/")
 from FlaskApp import app as application
 
 application.secret_key = 'Add your secret key'
+
+## Install Apache 2
+
+https://httpd.apache.org/download.cgi
+
+https://apache-http-server.en.softonic.com
 
 ## Restart Apache
 
